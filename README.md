@@ -14,7 +14,7 @@ Flask: version = 2.0.1
 
 ### 1 - creating virtual env: 
 
-* cd < directory >
+* cd < directory > 
 * on the terminal - cmd < py -m venv mkad_env >
 
 ### 2 - activate env:
@@ -26,9 +26,8 @@ Flask: version = 2.0.1
 
 #### Fonts of Project
 
-* https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/
+* <a href=" https://flask.palletsprojects.com/en/2.0.x/blueprints/ " target="_blank">example</a>
 
-* https://git-scm.com/docs/gitignore
-  
+* <a href=" https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/ " target="_blank">example</a>
 
-
+* <a href=" https://git-scm.com/docs/gitignore " target="_blank">example</a>

@@ -6,6 +6,7 @@ This project implements a Flask blueprint apllication to locate coordinations of
 ### Configurations of Project
 
 Python: version = 3.9.6
+Flask: version = 2.0.1
 
 ### 1 - creating virtual env: 
 
@@ -14,7 +15,10 @@ Python: version = 3.9.6
 
 ### 2 - activate env:
 
-* on the terminal - cmd < mkad_env/Scripts/Activate >
+* on the terminal - cmd < mkad_env\Scripts\Activate or mkad_env\Scripts\Activate.ps1 or mkad_env\Scripts\Activate.bat >
+
+### Packages on the file requirements
+* on the terminal - cmd < pip freeze > requirements.txt >
 
 #### Fonts of Project
 

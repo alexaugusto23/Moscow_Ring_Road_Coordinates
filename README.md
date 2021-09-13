@@ -12,6 +12,7 @@ This project implements a Flask blueprint apllication to locate coordinations of
 Python: version = 3.9.6
 Flask: version = 2.0.1
 Requests: version = 2.26.0
+Dotenv: version = 0.19.0
 
 ### 1 - creating virtual env: 
 
@@ -38,3 +39,7 @@ Requests: version = 2.26.0
 * https://yandex.com/dev/direct/doc/examples-v5/python3.html 
 
 * https://yandex/dev/maps/geocoder/doc/desc/concepts/about.html
+
+* https://www.youtube.com/watch?v=w-fJsKfNsNI
+
+* https://developers.google.com/maps/documentation/distance-matrix/overview#maps_http_distancematrix_latlng-py

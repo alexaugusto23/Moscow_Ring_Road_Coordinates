@@ -4,6 +4,8 @@ This project implements a Flask blueprint apllication to locate coordinations of
 ## How to use the project
 * ....
 
+############################## - ##############################
+
 ## Steps for project creation
 
 ### Configurations of Project
@@ -25,8 +27,9 @@ Flask: version = 2.0.1
 
 #### Fonts of Project
 
-https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/
-https://git-scm.com/docs/gitignore
+* https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/
+
+* https://git-scm.com/docs/gitignore
   
 
 

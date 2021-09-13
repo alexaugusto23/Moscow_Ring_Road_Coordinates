@@ -7,6 +7,6 @@ index_blueprint = Blueprint('index_blueprint', __name__)
 @index_blueprint.route('/index/')
 def index():
     try:
-        return 'This is flask blueprint example'
+        return '<h1>This is flask blueprint example</h1>'
     except TemplateNotFound:
         abort(404)

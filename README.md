@@ -9,12 +9,12 @@ Python Version:
 
 ### 1 - creating virtual env: 
 
-* cd <directory>
-* on the terminal - cmd <py -m venv mkad_env>
+* cd < directory >
+* on the terminal - cmd < py -m venv mkad_env >
 
 ### 2 - activate env:
 
-* on the terminal - cmd <mkad_env/Scripts/Activate>
+* on the terminal - cmd < mkad_env/Scripts/Activate >
   
 
 

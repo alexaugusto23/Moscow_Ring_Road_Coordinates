@@ -4,7 +4,6 @@ This project implements a Flask blueprint apllication to locate coordinations of
 ## How to use the project
 * ....
 
-############################## - ##############################
 
 ## Steps for project creation
 

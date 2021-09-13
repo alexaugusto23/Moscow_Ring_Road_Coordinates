@@ -26,8 +26,8 @@ Flask: version = 2.0.1
 
 #### Fonts of Project
 
-* <a href=" https://flask.palletsprojects.com/en/2.0.x/blueprints/ " target="_blank">example</a>
+<a href=" https://flask.palletsprojects.com/en/2.0.x/blueprints/ " target="_blank">https://flask.palletsprojects.com/en/2.0.x/blueprints/</a>
 
-* <a href=" https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/ " target="_blank">example</a>
+<a href=" https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/ " target="_blank">https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/</a>
 
-* <a href=" https://git-scm.com/docs/gitignore " target="_blank">example</a>
+<a href=" https://git-scm.com/docs/gitignore/ " target="_blank">https://git-scm.com/docs/gitignore/</a>

@@ -1,2 +1,2 @@
 # Byte-compiled / optimized / DLL files
-_pycache__/app.cpython-39.pyc
+*.pyc

@@ -1,6 +1,9 @@
 # Moscow_Ring_Road_Coordinates
 This project implements a Flask blueprint apllication to locate coordinations of Ring Road MKAD.
 
+## How to use the project
+* ....
+
 ## Steps for project creation
 
 ### Configurations of Project
@@ -23,6 +26,7 @@ Flask: version = 2.0.1
 #### Fonts of Project
 
 https://nahidsaikat.com/blog/structure-your-project-with-flask-blueprint/
+https://git-scm.com/docs/gitignore
   
 
 

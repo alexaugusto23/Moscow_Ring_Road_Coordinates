@@ -5,7 +5,7 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 ### Configurations of Project
 
-Python Version: 
+Python: version = 3.9.6
 
 ### 1 - creating virtual env: 
 

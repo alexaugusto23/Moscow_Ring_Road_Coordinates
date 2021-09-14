@@ -7,24 +7,25 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 ## Steps for project creation
 
-### Configurations of Project
+### Configurations of Pro
 
 Python: version = 3.9.6
 Flask: version = 2.0.1
 Requests: version = 2.26.0
 Dotenv: version = 0.19.0
+Pandas: version = 1.3.3
 
 ### 1 - creating virtual env: 
 
 * cd < directory > 
-* on the terminal - cmd < py -m venv mkad_env >
+* on the terminal - cmd < python -m venv mkad_env >
 
 ### 2 - activate env:
 
 * on the terminal - cmd < mkad_env\Scripts\Activate or mkad_env\Scripts\Activate.ps1 or mkad_env\Scripts\Activate.bat >
 
 ### Packages on the file requirements
-* on the terminal - cmd < pip freeze > requirements.txt >
+* on the terminal - cmd < pip >
 
 #### Fonts of Project
 

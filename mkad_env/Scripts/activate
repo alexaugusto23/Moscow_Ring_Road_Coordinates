@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\alexsandro.ignacio\OneDrive - WCA Soluções de Inteligência Comercial\Documentos\Docs\Git\Moscow_Ring_Road_Coordinates\mkad_env"
+VIRTUAL_ENV="C:\git\Moscow_Ring_Road_Coordinates\mkad_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

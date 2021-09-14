@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block header %}
+{% endblock %}
+
+<title>Moscow Ring Road</title>
+
+{% block content %}
+  <form action="/form" method="post">
+
+    <label for="origin">Origin</label>
+    <input name="origin" id="origin" required>
+
+    <label for="destiny">Destiny</label>
+    <input type="destiny" name="destiny" id="destiny" required>
+    
+    <input type="submit" value="Search">
+  </form>
+
+  <br>
+
+  <div class="distancia">
+    <label class="">Distância</label>
+    <br>
+    <input type="text" name="" value="{{ distancia }}"  id="" readonly  size="70" />
+    <br>
+  </div>
+
+
+{% endblock %}

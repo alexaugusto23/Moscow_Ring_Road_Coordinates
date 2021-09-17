@@ -13,11 +13,19 @@ Then you will see the output on the form field, that corresponds to distance fro
 
 In the next button test, you can get the results that are running on the back end.
 
-[<img align="left" alt="button_test" width="auto" src="">][button_test]
+[<img align="left" alt="button_test" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/test.JPG">][button_test]
+
+results of the test.
+
+[<img align="left" alt="result_test" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/test_results.JPG">][result_test]
 
 In the next button coverage, you can get the page with coverage test on html view that were running on the back end.
 
-[<img align="left" alt="button_test" width="auto" src="">][button_test]
+[<img align="left" alt="button_cover" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/coverrage.JPG">][button_cover]
+
+results of the coverage.
+
+[<img align="left" alt="result_cover" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/coverage_results.JPG">][result_cover]
 
 
 ## Steps for project creation

@@ -2,11 +2,22 @@
 This project implements a Flask blueprint apllication to locate coordinations of Ring Road MKAD.
 
 ## How to use the project
-* ....
 
-[<img align="left" alt="input" width="80ox" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/input.JPG">][input]
+For searching a cordinate or adress just put a sting on the form field as the image shows.
 
-[<img align="left" alt="output" width="80px" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/output.JPG">][output]
+[<img align="left" alt="input" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/input.JPG">][input]
+
+Then you will see the output on the form field, that corresponds to distance from origin to destiny.
+
+[<img align="left" alt="output" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/output.JPG">][output]
+
+In the next button test, you can get the results that are running on the back end.
+
+[<img align="left" alt="button_test" width="auto" src="">][button_test]
+
+In the next button coverage, you can get the page with coverage test on html view that were running on the back end.
+
+[<img align="left" alt="button_test" width="auto" src="">][button_test]
 
 
 ## Steps for project creation

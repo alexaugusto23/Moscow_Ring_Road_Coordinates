@@ -62,25 +62,24 @@
     <p id="t8" class="run"><span class="n"><a href="#t8">8</a></span><span class="t"><span class="op">@</span><span class="nam">coverage_blueprint</span><span class="op">.</span><span class="nam">route</span><span class="op">(</span><span class="str">'/coverage'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p id="t9" class="run"><span class="n"><a href="#t9">9</a></span><span class="t"><span class="key">def</span> <span class="nam">coverage</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p id="t10" class="mis show_mis"><span class="n"><a href="#t10">10</a></span><span class="t">    <span class="key">try</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t11" class="pln"><span class="n"><a href="#t11">11</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t12" class="mis show_mis"><span class="n"><a href="#t12">12</a></span><span class="t">        <span class="key">return</span> <span class="nam">render_template</span><span class="op">(</span><span class="str">"index.html"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t13" class="mis show_mis"><span class="n"><a href="#t13">13</a></span><span class="t">    <span class="key">except</span> <span class="nam">TemplateNotFound</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t14" class="mis show_mis"><span class="n"><a href="#t14">14</a></span><span class="t">        <span class="nam">abort</span><span class="op">(</span><span class="num">404</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t15" class="pln"><span class="n"><a href="#t15">15</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t16" class="run"><span class="n"><a href="#t16">16</a></span><span class="t"><span class="op">@</span><span class="nam">coverage_blueprint</span><span class="op">.</span><span class="nam">route</span><span class="op">(</span><span class="str">'/buttonback'</span><span class="op">,</span> <span class="nam">methods</span><span class="op">=</span><span class="op">[</span><span class="str">"POST"</span><span class="op">]</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t17" class="run"><span class="n"><a href="#t17">17</a></span><span class="t"><span class="key">def</span> <span class="nam">buttonback</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t18" class="mis show_mis"><span class="n"><a href="#t18">18</a></span><span class="t">    <span class="key">try</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t19" class="mis show_mis"><span class="n"><a href="#t19">19</a></span><span class="t">        <span class="key">return</span> <span class="nam">redirect</span><span class="op">(</span><span class="str">'/index'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t20" class="mis show_mis"><span class="n"><a href="#t20">20</a></span><span class="t">    <span class="key">except</span> <span class="nam">TemplateNotFound</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t21" class="mis show_mis"><span class="n"><a href="#t21">21</a></span><span class="t">        <span class="nam">abort</span><span class="op">(</span><span class="num">404</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t11" class="mis show_mis"><span class="n"><a href="#t11">11</a></span><span class="t">        <span class="key">return</span> <span class="nam">render_template</span><span class="op">(</span><span class="str">"index.html"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t12" class="mis show_mis"><span class="n"><a href="#t12">12</a></span><span class="t">    <span class="key">except</span> <span class="nam">TemplateNotFound</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t13" class="mis show_mis"><span class="n"><a href="#t13">13</a></span><span class="t">        <span class="nam">abort</span><span class="op">(</span><span class="num">404</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t14" class="pln"><span class="n"><a href="#t14">14</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t15" class="run"><span class="n"><a href="#t15">15</a></span><span class="t"><span class="op">@</span><span class="nam">coverage_blueprint</span><span class="op">.</span><span class="nam">route</span><span class="op">(</span><span class="str">'/buttonback'</span><span class="op">,</span> <span class="nam">methods</span><span class="op">=</span><span class="op">[</span><span class="str">"POST"</span><span class="op">]</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t16" class="run"><span class="n"><a href="#t16">16</a></span><span class="t"><span class="key">def</span> <span class="nam">buttonback</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t17" class="mis show_mis"><span class="n"><a href="#t17">17</a></span><span class="t">    <span class="key">try</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t18" class="mis show_mis"><span class="n"><a href="#t18">18</a></span><span class="t">        <span class="key">return</span> <span class="nam">redirect</span><span class="op">(</span><span class="str">'/index'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t19" class="mis show_mis"><span class="n"><a href="#t19">19</a></span><span class="t">    <span class="key">except</span> <span class="nam">TemplateNotFound</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t20" class="mis show_mis"><span class="n"><a href="#t20">20</a></span><span class="t">        <span class="nam">abort</span><span class="op">(</span><span class="num">404</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t21" class="pln"><span class="n"><a href="#t21">21</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p id="t22" class="pln"><span class="n"><a href="#t22">22</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t23" class="pln"><span class="n"><a href="#t23">23</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
 </div>
 <div id="footer">
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.5</a>,
-            created at 2021-09-17 13:24 -0300
+            created at 2021-09-17 14:15 -0300
         </p>
     </div>
 </div>

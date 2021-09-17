@@ -2,26 +2,14 @@ import unittest
 from app import app
 import re
 
-# url = "https://www.bytebank.com.br/cambio"
-# padrao_url = re.compile("(http(s)?://)?(www.)?bytebank.com(.br)?/cambio")
-# match = padrao_url.match(url)
-
-# if not match:
-#     raise ValueError("A URL não é válida.")
-# print("A URL é válida.")
-
-
 class TestHomeView(unittest.TestCase):
 
     '''
-      Como todos os 3 casos de teste fazem um get na home "/"
-      da nossa aplicacao, definimos a funcao setUp. Ela e executada
-      automaticamente sempre que o Pytest instancia a classe TestHomeView.
-      A funcao setUp e semelhante a um metodo construtor.
+      As all 3 test cases do a get home "/"
+      from our application, we define the setUp function. she is executed
+      automatically whenever unittest instantiates the TestHomeView class.
+      The setUp function is similar to a constructor method.
     '''
-
-    # def test_upper(self):
-    #     self.assertEqual('foo'.upper(), 'FOO')
 
     def setUp(self):
         my_app = app.test_client()

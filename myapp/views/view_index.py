@@ -56,6 +56,6 @@ def buttontest() -> templating:
 
 @index_blueprint.route("/buttoncover", methods=["PUT", "POST"])
 def buttoncover() -> templating:
-    os.system('coverage run -m unittest discover')
+    os.system('coverage run --source test --branch -m unittest discover')
     os.system('coverage html')
     return redirect('coverage')

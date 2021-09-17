@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+{% endblock %}
+
+    <title>Moscow Ring Road</title>
+
+{% block content %}
+    <div>
+        {{ log }}
+    </div>
+
+    <div class="">
+        <br>
+        <form action="/buttonback" method="post">
+          <input type="submit" value="Back">
+        </form>
+        <br>
+      </div>
+{% endblock %}

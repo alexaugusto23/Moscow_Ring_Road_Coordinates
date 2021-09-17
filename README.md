@@ -14,9 +14,6 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 ## Steps for project creation
 
-### Configurations of Virtual Enviroment
-
-On the requirement txt file.
 
 ### 1 - creating virtual env: 
 

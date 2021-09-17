@@ -20,7 +20,7 @@ index_blueprint = Blueprint('index_blueprint', __name__, template_folder='templa
 def index() -> templating:
     # Route to render template.
     try:
-        return render_template('index.html')
+        return render_template('index_mkad.html')
     except TemplateNotFound:
         abort(404)
 
@@ -53,3 +53,9 @@ def form(origin: str = None, destiny: str = None ) -> str:
 def buttontest() -> templating:
     ManagerFile.deleta_cria_file()
     return redirect('test')
+
+@index_blueprint.route("/buttoncover", methods=["PUT", "POST"])
+def buttoncover() -> templating:
+    os.system('coverage run -m unittest discover')
+    os.system('coverage html')
+    return redirect('coverage')

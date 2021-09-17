@@ -4,9 +4,9 @@ This project implements a Flask blueprint apllication to locate coordinations of
 ## How to use the project
 * ....
 
-[<img align="left" alt="input" width="auto" src="">][input]
+[<img align="left" alt="input" width="80ox" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/input.JPG">][input]
 
-[<img align="left" alt="output" width="auto" src="">][input]
+[<img align="left" alt="output" width="80px" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/output.JPG">][output]
 
 
 ## Steps for project creation

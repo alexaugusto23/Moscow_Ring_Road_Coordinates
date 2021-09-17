@@ -3,74 +3,13 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 ## How to use the project
 
+* For searching a cordinate or adress just put a string on the form field origin: 37.575531,55.910907 and destiny: 37.369188,55.75435.
 
-For searching a cordinate or adress just put a sting on the form field as the image shows.
+* Then you will see the output on the form field, that corresponds to distance from origin to destiny.
 
+* In the next button called test, you can get the results that are running on the back end. This will redirect for page with result of the test.
 
-<br/>
-
-
-<img align="left" alt="input" width="160px" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/input.JPG">
-
-
-<br/>
-
-
-Then you will see the output on the form field, that corresponds to distance from origin to destiny.
-
-
-<br/>
-
-
-<img align="left" alt="output" width="160pxpx" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/output.JPG">
-
-
-<br/>
-
-
-In the next button test, you can get the results that are running on the back end.
-
-
-<br/>
-
-
-<img align="left" alt="button_test" width="40px" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/test.JPG">
-
-
-<br/>
-
-results of the test.
-
-
-<br/>
-
-
-<img align="left" alt="result_test" width="160pxpx" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/test_results.JPG">
-
-
-<br/>
-
-
-In the next button coverage, you can get the page with coverage test on html view that were running on the back end.
-
-
-<br/>
-
-<img align="left" alt="button_cover" width="40px" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/coverrage.JPG">
-
-
-<br/>
-
-
-results of the coverage.
-
-
-<br/>
-
-<img align="left" alt="result_cover" width="160pxpx" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/coverage_results.JPG">
-
-
-<br/>
+* In the next button called coverage, you can get the page with coverage of the tests on html view that were running on the back end.
 
 
 ## Steps for project creation

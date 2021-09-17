@@ -4,6 +4,10 @@ This project implements a Flask blueprint apllication to locate coordinations of
 ## How to use the project
 * ....
 
+[<img align="left" alt="input" width="auto" src="">][input]
+
+[<img align="left" alt="output" width="auto" src="">][input]
+
 
 ## Steps for project creation
 

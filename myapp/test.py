@@ -1,5 +1,14 @@
 import unittest
 from app import app
+import re
+
+# url = "https://www.bytebank.com.br/cambio"
+# padrao_url = re.compile("(http(s)?://)?(www.)?bytebank.com(.br)?/cambio")
+# match = padrao_url.match(url)
+
+# if not match:
+#     raise ValueError("A URL não é válida.")
+# print("A URL é válida.")
 
 
 class TestHomeView(unittest.TestCase):
@@ -16,19 +25,20 @@ class TestHomeView(unittest.TestCase):
 
     def setUp(self):
         my_app = app.test_client()
-        self.response = my_app.get('/')
+        self.response_root = my_app.get('/')
+        self.response_form = my_app.get('/form')
 
     # Testamos se a resposta e 200 ("ok")
     def test_get(self):
-        self.assertEqual(200, self.response.status_code)
-
-    # # Testamos se a nossa home retorna a string "ok"
-    # def test_html_string_response(self):
-    #     self.assertEqual("ok", self.response.data.decode('utf-8'))
+        self.assertEqual(200, self.response_root.status_code)
 
     # Testamos se o content_type da resposta da home esta correto
     def test_content_type(self):
-        self.assertIn('text/html', self.response.content_type)
+        self.assertIn('text/html', self.response_root.content_type)
+
+    # Testamos se a nossa home retorna a string "ok"
+    def test_html_string_response(self):
+        self.assertEqual("ok", self.response_form.data.decode('utf-8'))
     
      
 if __name__ == '__main__':

@@ -45,7 +45,7 @@ def form(origin: str = None, destiny: str = None ) -> str:
     maps = json.loads(response.text)
     if maps['status'].lower() == 'ok':
         distancia = str(maps['rows'][0]['elements'][0]['distance']['text'])
-        return render_template('index.html',distancia=distancia) 
+        return render_template('index_mkad.html',distancia=distancia) 
     else:
         return 'Not found'
 

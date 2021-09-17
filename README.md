@@ -40,33 +40,13 @@ results of the coverage.
 <img align="left" alt="result_cover" width="auto" src="https://github.com/alexaugusto23/Moscow_Ring_Road_Coordinates/blob/main/imgs_readme/coverage_results.JPG">
 
 
+
+
 ## Steps for project creation
 
 ### Configurations of Virtual Enviroment
 
-Package            Version
------------------- ---------
-certifi            2021.5.30
-charset-normalizer 2.0.4
-click              8.0.1
-colorama           0.4.4
-coverage           5.5
-Flask              2.0.1
-idna               3.2
-itsdangerous       2.0.1
-Jinja2             3.0.1
-MarkupSafe         2.0.1
-numpy              1.21.2
-pandas             1.3.3
-pip                21.1.3
-python-dateutil    2.8.2
-python-dotenv      0.19.0
-pytz               2021.1
-requests           2.26.0
-setuptools         56.0.0
-six                1.16.0
-urllib3            1.26.6
-Werkzeug           2.0.1
+On the requirement txt file.
 
 ### 1 - creating virtual env: 
 

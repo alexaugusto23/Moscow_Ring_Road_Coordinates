@@ -26,7 +26,12 @@ class TestHomeView(unittest.TestCase):
 
     # Testamos se a nossa home retorna a string "ok"
     def test_html_string_response(self):
-        self.assertEqual("ok", self.response_form.data.decode('utf-8'))
+        string = self.response_form.data.decode('utf-8')
+        print(string)
+        padrao = "([0-9]{0,1000000000}) ([a-z]{2})"
+        resposta = re.search(padrao, string).group()
+        print(resposta)
+        self.assertEqual( resposta, self.response_form.data.decode('utf-8') )
     
      
 if __name__ == '__main__':

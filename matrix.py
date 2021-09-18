@@ -13,8 +13,13 @@ API_KEY = os.getenv("API_KEY")
 # origins='avmanoelpedropimentel,101'
 # destinations='ruamargarida,26'
 
-origins = '55.790847,37.1547731'
-destinations = '52.8935659,29.9569978'
+# origins = '37.842789,55.76522'
+# destinations = '70.0464,108.4749'
+
+origins = ' 56.8465,35.8627'
+destinations = '57.0175,35.9605'
+    
+
 
 regions = None
 
@@ -26,4 +31,6 @@ headers = {}
 response = requests.request("GET", url, headers=headers, data=payload)
 
 maps = json.loads(response.text)
-print(maps['rows'][0]['elements'][0]['distance']['text'])
+print(maps)
+print(maps['rows'][0]['elements'][0]['status'])
+# print(maps['rows'][0]['elements'][0]['distance']['text'])

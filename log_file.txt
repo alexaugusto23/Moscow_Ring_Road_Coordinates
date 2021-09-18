@@ -1,5 +1,20 @@
-..
+..F
+======================================================================
+FAIL: test_html_string_response (__main__.TestHomeView)
 ----------------------------------------------------------------------
-Ran 2 tests in 0.016s
+Traceback (most recent call last):
+  File "c:\git\Moscow_Ring_Road_Coordinates\myapp\test.py", line 33, in test_html_string_response
+    self.assertEqual( resposta, self.response_form.data.decode('utf-8') )
+AssertionError: ' me' != '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3[137 chars]p>\n'
+-  me
++ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
 
-OK
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.018s
+
+FAILED (failures=1)

@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for test.py: 73%</title>
+    <title>Coverage for test.py: 77%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="jquery.min.js"></script>
@@ -18,12 +18,12 @@
 <div id="header">
     <div class="content">
         <h1>Coverage for <b>test.py</b> :
-            <span class="pc_cov">73%</span>
+            <span class="pc_cov">77%</span>
         </h1>
         <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
         <h2 class="stats">
-            20 statements &nbsp;
-            <button type="button" class="run shortkey_r button_toggle_run" title="Toggle lines run">15 run</button>
+            24 statements &nbsp;
+            <button type="button" class="run shortkey_r button_toggle_run" title="Toggle lines run">19 run</button>
             <button type="button" class="mis show_mis shortkey_m button_toggle_mis" title="Toggle lines missing">5 missing</button>
             <button type="button" class="exc show_exc shortkey_x button_toggle_exc" title="Toggle lines excluded">0 excluded</button>
             <button type="button" class="par run show_par shortkey_p button_toggle_par" title="Toggle lines partially run">1 partial</button>
@@ -81,23 +81,27 @@
     <p id="t26" class="pln"><span class="n"><a href="#t26">26</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p id="t27" class="pln"><span class="n"><a href="#t27">27</a></span><span class="t">    <span class="com"># Testamos se a nossa home retorna a string "ok"</span>&nbsp;</span><span class="r"></span></p>
     <p id="t28" class="run"><span class="n"><a href="#t28">28</a></span><span class="t">    <span class="key">def</span> <span class="nam">test_html_string_response</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t29" class="run"><span class="n"><a href="#t29">29</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">assertEqual</span><span class="op">(</span><span class="str">"ok"</span><span class="op">,</span> <span class="nam">self</span><span class="op">.</span><span class="nam">response_form</span><span class="op">.</span><span class="nam">data</span><span class="op">.</span><span class="nam">decode</span><span class="op">(</span><span class="str">'utf-8'</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t30" class="pln"><span class="n"><a href="#t30">30</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t31" class="pln"><span class="n"><a href="#t31">31</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t32" class="par run show_par"><span class="n"><a href="#t32">32</a></span><span class="t"><span class="key">if</span> <span class="nam">__name__</span> <span class="op">==</span> <span class="str">'__main__'</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">32&#x202F;&#x219B;&#x202F;33</span><span class="annotate long">line 32 didn't jump to line 33, because the condition on line 32 was never true</span></span></p>
-    <p id="t33" class="mis show_mis"><span class="n"><a href="#t33">33</a></span><span class="t">   <span class="nam">log_file</span> <span class="op">=</span> <span class="str">'log_file.txt'</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t34" class="mis show_mis"><span class="n"><a href="#t34">34</a></span><span class="t">   <span class="key">with</span> <span class="nam">open</span><span class="op">(</span><span class="nam">log_file</span><span class="op">,</span> <span class="str">"w"</span><span class="op">)</span> <span class="key">as</span> <span class="nam">file</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t35" class="mis show_mis"><span class="n"><a href="#t35">35</a></span><span class="t">       <span class="nam">runner</span> <span class="op">=</span> <span class="nam">unittest</span><span class="op">.</span><span class="nam">TextTestRunner</span><span class="op">(</span><span class="nam">file</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t36" class="mis show_mis"><span class="n"><a href="#t36">36</a></span><span class="t">       <span class="nam">unittest</span><span class="op">.</span><span class="nam">main</span><span class="op">(</span><span class="nam">testRunner</span><span class="op">=</span><span class="nam">runner</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t37" class="mis show_mis"><span class="n"><a href="#t37">37</a></span><span class="t">       <span class="nam">runner</span><span class="op">.</span><span class="nam">close</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t38" class="pln"><span class="n"><a href="#t38">38</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t39" class="pln"><span class="n"><a href="#t39">39</a></span><span class="t"><span class="com"># python -m unittest test.py</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t29" class="run"><span class="n"><a href="#t29">29</a></span><span class="t">        <span class="nam">string</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">response_form</span><span class="op">.</span><span class="nam">data</span><span class="op">.</span><span class="nam">decode</span><span class="op">(</span><span class="str">'utf-8'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t30" class="run"><span class="n"><a href="#t30">30</a></span><span class="t">        <span class="nam">padrao</span> <span class="op">=</span> <span class="str">"([0-9]{0,1000000000}) ([a-z]{2})"</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t31" class="run"><span class="n"><a href="#t31">31</a></span><span class="t">        <span class="nam">resposta</span> <span class="op">=</span> <span class="nam">re</span><span class="op">.</span><span class="nam">search</span><span class="op">(</span><span class="nam">padrao</span><span class="op">,</span> <span class="nam">string</span><span class="op">)</span><span class="op">.</span><span class="nam">group</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t32" class="run"><span class="n"><a href="#t32">32</a></span><span class="t">        <span class="nam">print</span><span class="op">(</span><span class="nam">resposta</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t33" class="run"><span class="n"><a href="#t33">33</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">assertEqual</span><span class="op">(</span> <span class="nam">resposta</span><span class="op">,</span> <span class="nam">self</span><span class="op">.</span><span class="nam">response_form</span><span class="op">.</span><span class="nam">data</span><span class="op">.</span><span class="nam">decode</span><span class="op">(</span><span class="str">'utf-8'</span><span class="op">)</span> <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t34" class="pln"><span class="n"><a href="#t34">34</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t35" class="pln"><span class="n"><a href="#t35">35</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t36" class="par run show_par"><span class="n"><a href="#t36">36</a></span><span class="t"><span class="key">if</span> <span class="nam">__name__</span> <span class="op">==</span> <span class="str">'__main__'</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">36&#x202F;&#x219B;&#x202F;37</span><span class="annotate long">line 36 didn't jump to line 37, because the condition on line 36 was never true</span></span></p>
+    <p id="t37" class="mis show_mis"><span class="n"><a href="#t37">37</a></span><span class="t">   <span class="nam">log_file</span> <span class="op">=</span> <span class="str">'log_file.txt'</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t38" class="mis show_mis"><span class="n"><a href="#t38">38</a></span><span class="t">   <span class="key">with</span> <span class="nam">open</span><span class="op">(</span><span class="nam">log_file</span><span class="op">,</span> <span class="str">"w"</span><span class="op">)</span> <span class="key">as</span> <span class="nam">file</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t39" class="mis show_mis"><span class="n"><a href="#t39">39</a></span><span class="t">       <span class="nam">runner</span> <span class="op">=</span> <span class="nam">unittest</span><span class="op">.</span><span class="nam">TextTestRunner</span><span class="op">(</span><span class="nam">file</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t40" class="mis show_mis"><span class="n"><a href="#t40">40</a></span><span class="t">       <span class="nam">unittest</span><span class="op">.</span><span class="nam">main</span><span class="op">(</span><span class="nam">testRunner</span><span class="op">=</span><span class="nam">runner</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t41" class="mis show_mis"><span class="n"><a href="#t41">41</a></span><span class="t">       <span class="nam">runner</span><span class="op">.</span><span class="nam">close</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t42" class="pln"><span class="n"><a href="#t42">42</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t43" class="pln"><span class="n"><a href="#t43">43</a></span><span class="t"><span class="com"># python -m unittest test.py</span>&nbsp;</span><span class="r"></span></p>
 </div>
 <div id="footer">
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.5</a>,
-            created at 2021-09-17 16:02 -0300
+            created at 2021-09-17 16:49 -0300
         </p>
     </div>
 </div>

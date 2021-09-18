@@ -26,6 +26,7 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 ### Packages on the file requirements
 * on the terminal - cmd < pip >
+* copy to requirements - < pip freeze > requirements.txt >
 
 #### Fonts of Project
 

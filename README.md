@@ -11,6 +11,11 @@ This project implements a Flask blueprint apllication to locate coordinations of
 
 * In the next button called coverage, you can get the page with coverage of the tests on html view that were running on the back end.
 
+## Docker Run Project
+
+### Commands
+* Create and build image: docker image build -t moscow_ring_road_coordinates .
+* Create and build image: docker build -t moscow_ring_road_coordinates .
 
 ## Steps for project creation
 
